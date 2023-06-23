@@ -5,7 +5,7 @@ project(boost-asio-samples)
 
 if (WIN32)
     add_definitions(-D_WIN32_WINNT=0x0601)
-    set(BOOST_ROOT_DIR "C:/DevLibs/boost_1_81_0")
+    set(BOOST_ROOT_DIR "C:/DevLibs/boost_1_82_0")
 endif()
 
 # Boost.Asio is header only.  Boost.Thread is required if we want to launch threads using boost::thread.
